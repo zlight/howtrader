@@ -26,7 +26,7 @@ def get_install_requires():
     install_requires = [
         "simplejson",
         "flask",
-        "PySide6",
+        "PySide6==6.2.2",
         "pyqtgraph",
         "qdarkstyle",
         "requests",
